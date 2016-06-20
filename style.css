@@ -37,6 +37,39 @@ nav a{
 	text-decoration: none;
 }
 
+article{
+	position: relative;
+	left: 110px;
+	top: 80px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	margin: 3%;
+	padding: 15px;
+	background-image: url(../psihomakas.ru/img/bga.jpg)
+}
+
+header{
+	position: relative;
+	left: 110px;
+}
+
+h1{
+	text-shadow: -1px 1px lightblue
+}
+
+h2{
+	position: relative;
+	left: 110px;
+}
+
+h3{
+	color: #eee;
+}
+
+p{
+	color: lightblue;
+	text-shadow: 0.1px 0.1px blue;
+}
+
 main{
 	display: flex;
 }
