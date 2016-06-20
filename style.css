@@ -21,6 +21,22 @@ nav{
 	background: #ccc;
 }
 
+nav a{
+	display: block;
+	width: 160px;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	left: 40px;
+	top: 250px;
+	margin: 1px;
+	background: #ccc;
+	color: #000;
+	padding-left: 15px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
 main{
 	display: flex;
 }
