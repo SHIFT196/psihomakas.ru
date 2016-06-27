@@ -6,3 +6,17 @@ $(document).ready(function() {
         e.preventDefault();
     });
 });
+
+
+$(document).ready(function(){
+
+        var $menu = $("#nav");
+
+        $(window).scroll(function(){
+            if ( $(this).scrollLeft() > 100 && $menu.hasClass("default") ){
+                $menu.removeClass("default").addClass("fixed");
+            } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
+                $menu.removeClass("fixed").addClass("default");
+            }
+        });//scroll
+    });

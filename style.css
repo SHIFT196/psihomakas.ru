@@ -37,6 +37,17 @@ nav a{
 	text-decoration: none;
 }
 
+nav.default{
+	height: 100vh;
+}
+
+nav.fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+
 article{
 	position: relative;
 	left: 110px;
