@@ -9,6 +9,7 @@ html{
 }
 
 body{
+	background: url(../psihomakas.ru/img/mochaGrunge.png);
 	font-family: 'Underdog', cursive;
 }
 
@@ -37,6 +38,27 @@ nav a{
 	text-decoration: none;
 }
 
+nav a:first-child{
+	font-size: 1.1em;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+}
+
+nav a:first-child::before{
+	content: '';
+	position: absolute;
+	display: block;
+	height: 32px;
+	width: 32px;
+	top: ;
+	left: ;
+}
+
+.main-menu nav a:first-child::before{
+	background: url(..\psihomakas.ru\img\home.png) center no-repeat;
+}
+
 nav.default{
 	height: 100vh;
 }
@@ -46,6 +68,7 @@ nav.fixed{
 	top: 0;
 	left: 0;
 	height: 100%;
+
 }
 
 article{
