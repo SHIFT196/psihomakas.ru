@@ -24,7 +24,7 @@ nav{
 
 nav a{
 	display: block;
-	width: 160px;
+	width: 170px;
 	height: 30px;
 	line-height: 30px;
 	position: relative;
@@ -59,6 +59,27 @@ nav a:first-child::before{
 	background: url(..\psihomakas.ru\img\home.png) center no-repeat;
 }
 
+nav a:nth-child(2){
+	font-size: 1.1em;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+}
+
+nav a:nth-child(3){
+	font-size: 1.1em;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+}
+
+nav a:last-child{
+	font-size: 1.1em;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+}
+
 nav.default{
 	height: 100vh;
 }
@@ -68,7 +89,6 @@ nav.fixed{
 	top: 0;
 	left: 0;
 	height: 100%;
-
 }
 
 article{
