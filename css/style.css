@@ -64,9 +64,16 @@ article{
 	background-image: url(../img/bga.jpg)
 }
 
+article p{
+	color: #288af0;
+	text-align: auto;
+	text-shadow: -0.5px 1px 0.1px #f9f9f9;
+	font-size: 20px;
+}
+
 header{
 	position: fixed;
-	left: 110px;
+	left: 150px;
 }
 
 h1{
@@ -75,7 +82,7 @@ h1{
 
 h2{
 	position: fixed;
-	padding: 70px 110px;
+	padding: 70px 150px;
 }
 
 h3{
@@ -84,7 +91,7 @@ h3{
 
 p{
 	color: #067ba2;
-	text-shadow: 0.1px 0.1px #09488a;
+	text-shadow: -1px 1px #050505;
 }
 
 main{
